@@ -8,7 +8,7 @@ document.querySelector(".close-navbar-icon").addEventListener("click", () => {
   container.classList.remove("change");
 });
 
-const colors = ["#0019BE", "#8F00AD", "#003DB7", "#5001AC", ];
+const colors = ["#A3612D", "#A3612D", "#A3612D", "#A3612D", ];
 
 let i = 0;
 

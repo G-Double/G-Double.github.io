@@ -14,10 +14,10 @@ html {
 }
 
 :root {
-  --primary-color: #015cc3;
-  --secondary-color: rgb(0, 4, 66);
-  --white-color: #fff;
-  --grey-color: rgb(9, 0, 137);
+  --primary-color: rgba(231, 226, 219, 0.871);
+  --secondary-color: rgb(115, 67, 0);
+  --white-color: rgb(255, 255, 255);
+  --grey-color: rgb(175, 113, 31);
   --light-grey-color: #777;
 }
 
@@ -439,6 +439,7 @@ html {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  color: white;
 }
 
 .stories-wrapper {
@@ -448,11 +449,11 @@ html {
 }
 
 .story-bg {
-  background-color: rgba(238, 238, 238, 0.85);
+  background-color: rgba(238, 238, 238, 0.641);
   padding: 5rem;
   margin: 5rem;
   width: 70%;
-  box-shadow: 0 2rem 5rem rgba(51, 51, 51, 0.4);
+  box-shadow: 0 2rem 5rem rgba(141, 141, 141, 0.4);
   transform: skewX(20deg);
 }
 
@@ -482,7 +483,7 @@ html {
 
 .story-paragraph {
   font-size: 1.8rem;
-  color: var(--light-grey-color);
+  color: black;
 }
 
 .story-paragraph::first-letter {
@@ -512,7 +513,7 @@ html {
 .contact-form {
   width: 70rem;
   height: 50rem;
-  background-color: rgba(255, 255, 255, 0.767);
+  background-color: rgba(21, 0, 255, 0.239);
   margin: auto;
   flex-direction: column;
   border-radius: 0.5rem;
@@ -541,7 +542,7 @@ html {
 .input-group input,
 .input-group textarea {
   padding: 3rem 1rem 1rem 1rem;
-  background-color: var(--secondary-color);
+  background-color: rgba(219, 219, 222, 0.591);
   border: 0.1rem solid var(--secondary-color);
   font-size: 1.4rem;
   color: var(--light-grey-color);
@@ -560,7 +561,7 @@ html {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
-  color: var(--grey-color);
+  color: rgba(0, 0, 0, 0.568);
   position: absolute;
   top: 1rem;
   left: 1rem;
@@ -572,7 +573,7 @@ html {
   font-size: 1.6rem;
   letter-spacing: 0.1rem;
   margin-top: 1rem;
-  background-color: var(--light-grey-color);
+  background-color: rgba(216, 216, 216, 0.483);
   color:var(--secondary-color);
   border-radius: 0.5rem;
   border: none;
@@ -591,19 +592,19 @@ html {
 
 @keyframes contact-bg {
   0% {
-    background-color: #232426;
+    background-color: 	#ffffff;
   }
   25% {
-    background-color: #1e1e3f;
+    background-color: #9da5bd;
   }
   50% {
-    background-color: #0b1172;
+    background-color: #3a4c7a;
   }
   75% {
-    background-color: #656680;
+    background-color: #0a205a;
   }
   100% {
-    background-color: #3d3d3d;
+    background-color: #040c24;
   }
 }
 /* End of Contact */
